@@ -1,0 +1,15 @@
+{
+    "name": "edersoares/laravel-version",
+    "autoload": {
+        "psr-4": {
+            "EderSoares\\LaravelVersion\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EderSoares\\LaravelVersion\\VersionServiceProvider"
+            ]
+        }
+    }
+}
